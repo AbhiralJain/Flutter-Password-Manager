@@ -1,0 +1,33 @@
+name: passwordmanager
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  hive: ^2.0.5
+  path_provider: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.7
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+  - family: Montserrat
+    fonts:
+      - asset: fonts/Montserrat-Medium.ttf
+      - asset: fonts/Montserrat-Bold.ttf
+      - asset: fonts/Montserrat-MediumItalic.ttf
+      - asset: fonts/Montserrat-BoldItalic.ttf
