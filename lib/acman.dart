@@ -5,8 +5,7 @@ import 'package:passwordmanager/dbclass/hivedb.dart';
 class Acman extends StatefulWidget {
   final bool editmode;
   final ClassDB? evalues;
-  const Acman({Key? key, required this.editmode, this.evalues})
-      : super(key: key);
+  const Acman({Key? key, required this.editmode, this.evalues}) : super(key: key);
 
   @override
   _AcmanState createState() => _AcmanState();
@@ -80,7 +79,7 @@ class _AcmanState extends State<Acman> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           textf(_af, _ac, "Enter account name", TextCapitalization.words),
-          textf(_uf, _uc, "Enter user name", TextCapitalization.none),
+          textf(_uf, _uc, "Enter username", TextCapitalization.none),
           textf(_pf, _pc, "Enter password", TextCapitalization.none),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
